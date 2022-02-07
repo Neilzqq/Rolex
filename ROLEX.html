@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        勞力士官方網站- 瑞士奢華腕錶</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .rwd-banner {
+            margin-top: 50px;
+        }
+
+        .rwd-banner .owl-carousel {
+            padding: 0 20px;
+        }
+
+        .rwd-banner .owl-prev span {
+            color: #fff;
+            font-size: 50px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+
+        }
+
+        .rwd-banner .owl-next span {
+            color: #fff;
+            font-size: 50px;
+            position: absolute;
+            top: 50px;
+            right: 0;
+        }
+
+        .list {
+            background-color: rgb(33, 33, 33);
+            width: 100%;
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+
+        }
+
+        .listsec2 {
+            margin-top: -100px;
+        }
+
+        .listtop {
+            display: flex;
+            text-align: center;
+            width: 50vw;
+
+        }
+
+        .blist {
+            z-index: 1;
+            width: 100%;
+            transform: translateX(-1000px);
+            position: absolute;
+
+        }
+
+        .listtop button {
+            background: none;
+            border: none;
+        }
+
+        .list ul li {
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgb(255, 255, 255);
+
+        }
+
+
+
+        .listsvg svg {
+            width: 70%;
+
+        }
+
+        .listsvg {
+            margin-right: 80px;
+        }
+
+        .listlogo svg {
+            width: 25%;
+        }
+
+        .lists2ul1,
+        .lists2ul2,
+        .lists2ul3,
+        .lists2ul4 {
+            width: 40vw;
+            margin: 0px auto;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+        }
+
+        .lists2ul1 ul,
+        .lists2ul2 ul,
+        .lists2ul3 ul,
+        .lists2ul4 ul {
+            padding: 25px 0px;
+            list-style: none;
+        }
+
+
+        .rwdheader {
+            display: none;
+        }
+
+        .pcheader {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            z-index: 2;
+            padding-top: 20px;
+            padding-bottom: 10px;
+
+
+
+
+        }
+
+        .headerleft {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
+
+        .pcheaderlbtn {
+            display: flex;
+            background: none;
+            border: none;
+            align-items: flex-end;
+            position: relative;
+            margin-right: 30px;
+
+        }
+
+        .pcheaderlbtn .sc-ul {
+            width: 10px;
+            height: 10px;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            margin-bottom: 6px;
+            margin-right: 5px;
+
+
+
+        }
+
+
+        .pcheaderlbtn span {
+            border: none;
+
+        }
+
+        .l3,
+        #headerls {
+            color: white;
+        }
+
+        .pcheaderla {
+            display: flex;
+
+        }
+
+        .l3 {
+            margin-right: 20px;
+        }
+
+        .pcheaderla a {
+            text-decoration: none;
+        }
+
+        .pcheaderm {
+            display: flex;
+            align-items: flex-end;
+            margin-right: 150px;
+        }
+
+        .pcheaderright {
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        .pcsearch {
+            margin-right: 20px;
+        }
+
+        .pcheaderrbtn1,
+        .pcheaderrbtn2 {
+            border: none;
+            background: none;
+        }
+
+        .pcheaderrbtn1 span,
+        .pcheaderrbtn2 span {
+            color: white;
+        }
+
+        .section1 {
+            position: relative;
+        }
+
+        .section1 img {
+            width: 100%;
+            margin-top: -100px;
+            top: 0;
+        }
+
+        .section1 .pcs1h1 {
+            position: absolute;
+            top: 250px;
+            left: 500px;
+            text-align: center;
+        }
+
+        .pcs1h1 h1 {
+            margin: 0px 0px 30px;
+            font-weight: 400;
+            font-size: calc(1.5rem + 1.625 * ((100vw - 20rem) / 100));
+            line-height: 1.1;
+            font-family: var(--heading-font-family);
+            color: white;
+            letter-spacing: var(--heading-letter-spacing);
+        }
+
+        .pcs1h1 p {
+            margin: 0px 0px 10px;
+            font-family: var(--heading-font-family);
+            letter-spacing: 0.25em;
+            font-weight: 300;
+            font-size: calc(0.75rem + 0.5 * ((100vw - 20rem) / 100));
+            line-height: 1.3;
+            color: white;
+        }
+
+        .section2 {
+            background-color: rgb(247, 247, 247);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section2 .s2cont .p1 {
+            font-weight: 700;
+            font-size: calc(1.5rem + 1 * ((100vw - 20rem) / 100));
+            line-height: 1.5;
+            letter-spacing: 0.1em;
+            color: rgb(33, 33, 33);
+            margin-top: 50px;
+        }
+
+        .section2 .s2cont .p2 {
+            font-family: var(--text-font-family);
+            line-height: 1.7;
+            font-size: 0.8rem;
+            margin: 0px 0px 20px;
+        }
+
+        .s2a {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        .s2a .a1 {
+            color: rgb(18, 120, 74);
+            font-size: 0.8rem;
+            text-decoration: none;
+            border: 1px solid rgb(18, 120, 74);
+            border-radius: 25px;
+            padding: 5px 20px;
+            margin-right: 30px;
+        }
+
+        .s2a .a1:hover {
+            background: rgb(18, 120, 74);
+            border: none;
+            color: #fff;
+            transition: 0.5s;
+        }
+
+        .s2a .a2,
+        .s3a a {
+            color: rgb(18, 120, 74);
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+
+        .s2a .a2:hover {
+            color: rgb(18, 120, 74, 0.5);
+            transition: 0.7s;
+        }
+
+        .section3,
+        .blist .list {
+            overflow: hidden;
+        }
+
+        .list {
+            width: 45%;
+        }
+
+        .section3 ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .rwd-banner ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .rwd-banner ul li img {
+            width: 200px;
+        }
+
+        .s3a a:hover {
+            color: rgb(18, 120, 74, 0.5);
+            transition: 0.7s;
+        }
+
+        .s3a {
+            display: flex;
+            margin-left: 100px;
+            margin-top: 70px;
+
+        }
+
+        .owl-nav {
+            display: flex;
+        }
+
+        .owl-prev {
+            margin: 20px;
+        }
+
+        .owl-prev span {
+            color: #000;
+            font-size: 100px;
+            position: absolute;
+            top: 100px;
+            left: 0;
+
+        }
+
+        .owl-next span {
+            color: #000;
+            font-size: 100px;
+            position: absolute;
+            top: 100px;
+            right: 0;
+        }
+
+        .s3a p {
+            font-weight: 400;
+            font-family: var(--text-font-family);
+            letter-spacing: 0px;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        .s3a span {
+            transform: translateY(-5px);
+            padding: 0px 5px;
+        }
+
+        .s3a a {
+            font-size: 0.9rem;
+            transform: translateY(-2px);
+        }
+
+        .section4 {
+            position: relative;
+        }
+
+        .section4 img {
+            width: 100%;
+
+        }
+
+        .section4 .s4cont {
+            position: absolute;
+            top: 220px;
+            left: 150px;
+
+        }
+
+        .s4cont p {
+            font-weight: 400;
+            font-family: var(--text-font-family);
+            font-size: 12px;
+            line-height: 1.3;
+            color: #fff;
+            margin: 0px 0px 30px;
+        }
+
+        .s4cont h1 {
+            font-weight: 400;
+            font-family: var(--text-font-family);
+            font-size: 40px;
+            line-height: 1.1;
+            color: #fff;
+            margin: 0px 0px 30px;
+            letter-spacing: 3px;
+        }
+
+        .s4cont a {
+            color: #fff;
+            font-size: 0.8rem;
+            text-decoration: none;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 5px 20px;
+            margin-right: 30px;
+            font-weight: 700;
+        }
+
+        .s4cont a:hover {
+            background: #fff;
+            border: none;
+            color: rgb(18, 120, 74);
+            transition: 0.5s;
+        }
+
+        .section5 {
+            padding-top: 120px;
+        }
+
+        .s5cont .card1 img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+
+        }
+
+        .s5cont .card2 img,
+        .s5cont .card3 img {
+            width: 100%;
+            height: 350px;
+        }
+
+
+
+        .card1hid,
+        .card2hid,
+        .card3hid {
+            opacity: 0;
+        }
+
+        /* .s5cont .card1 img:hover {
+            width: 75%;
+            height: 300px;
+
+        } */
+
+        .section6 {
+            background-color: rgb(247, 247, 247);
+            padding-top: 55px;
+        }
+
+        .s6cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .s6cont p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            font-weight: bolder;
+            letter-spacing: 0.05em;
+            line-height: 1.4;
+        }
+
+        .s6svg button {
+            background: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            padding-bottom: 5px;
+            margin-right: 15px;
+            margin-bottom: 50px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: rgb(33, 33, 33);
+        }
+
+        .pcfoot {
+            padding-top: 100px;
+        }
+
+        .pcfooter {
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+
+        .pcfooter ul,
+        .rwdfooter ul {
+            list-style: none;
+        }
+
+        .pcfooter ul li,
+        .pcfooter p,
+        .rwdfooter ul li,
+        .rwdfooter p {
+            color: rgb(212, 212, 212);
+            font-size: 0.8125rem;
+            line-height: 1.8em;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+        footer .pcfootb {
+            margin-left: 20px;
+
+        }
+
+        footer .pcfootb a {
+            text-decoration: none;
+            color: rgb(212, 212, 212);
+            font-size: 0.8125rem;
+            line-height: 1.8em;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+        footer .pcfootb a:hover {
+            color: burlywood;
+        }
+
+        .rwdfoot {
+            display: none;
+        }
+
+        footer #pcfbtn,
+        footer .rwdfbtn {
+            margin-left: 700px;
+            border: none;
+            background: none;
+        }
+
+
+
+        @media (max-width: 375px) {
+            .rwd-banner ul {
+                list-style: none;
+            }
+
+            .pcheader {
+                display: none;
+            }
+
+            .owl-carousel {
+                padding-right: 30px;
+                padding-left: 10px;
+            }
+
+            .rwd-banner .owl-next span,
+            .rwd-banner .owl-prev span {
+                color: #fff;
+                top: 100px;
+            }
+
+            .owl-next span {
+                color: #000;
+            }
+
+            .owl-prev span {
+                color: #000;
+                left: -20px;
+            }
+
+            .blist {
+                z-index: 2;
+            }
+
+            .list {
+                width: 90%;
+            }
+
+            .listsvg svg {
+                width: auto;
+            }
+
+            .listlogo svg {
+                width: 100%;
+            }
+
+            .listsec2 {
+                margin: 0;
+            }
+
+            .section1 {
+                margin-top: -25px;
+                overflow: hidden;
+            }
+
+            .section1 img {
+                width: 200%;
+                transform: translateX(-180px);
+                margin-top: 0px;
+                top: 0;
+            }
+
+            .section1 .pcs1h1 {
+                left: 110px;
+                top: 180px;
+            }
+
+            .s2cont {
+                padding: 20px;
+            }
+
+            .section2 .s2cont .p2 {
+                font-size: 18px;
+            }
+
+            .s2a .a1 {
+                margin-right: 15px;
+                font-size: 16px;
+            }
+
+            .s2a .a2 {
+                font-size: 16px;
+            }
+
+            .section3 {
+                padding-left: 20px;
+            }
+
+            .s3a {
+                margin-left: 0px;
+
+            }
+
+            .section4 {
+                overflow: hidden;
+            }
+
+            .section4 img {
+                width: 200%;
+
+            }
+
+            .section4 .s4cont {
+                left: 25px;
+                top: 170px;
+            }
+
+            .s4cont p {
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+
+            .s4cont h1 {
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+
+            .s4cont a {
+                font-size: 16px;
+            }
+
+            .section5 {
+                padding-top: 80px;
+            }
+
+            .s5cont .card1 img {
+                height: 300px;
+            }
+
+            .s5cont .card2 img,
+            .s5cont .card3 img {
+                height: 150px;
+            }
+
+            .pcfoot {
+                display: none;
+            }
+
+            .rwdheader {
+                display: flex;
+                position: absolute;
+                z-index: 999;
+                align-items: end;
+                padding-top: 10px;
+            }
+
+            .rwdheaderl {
+                margin-left: 30px;
+                margin-right: 60px;
+            }
+
+            .rwdheaderm {
+                margin-right: 80px;
+            }
+
+            .rwdheader button {
+                border: none;
+                background: none;
+            }
+
+            .rwdfoot {
+                display: block;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 50px;
+            }
+
+            .pcfootl1 p {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                padding-bottom: 5px;
+            }
+
+            footer .rwdfbtn {
+                margin-left: 150px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- list -->
+    <div class="blist">
+        <div class="list">
+            <div class="listtop">
+                <button class="listsvg">
+                    <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"
+                        fill="hsl(0,0%,0%)" role="img" aria-hidden="true" alt="">
+                        <path
+                            d="m8.9 7.5 6.1 6.1-1.4 1.4-6.1-6.1-6.1 6.1-1.4-1.4 6.1-6.1-6.1-6.1 1.4-1.4 6.1 6.1 6.1-6.1 1.4 1.4z"
+                            fill="white">
+                        </path>
+                    </svg>
+                </button>
+                <div class="listlogo">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 103 59"
+                        aria-hidden="true" alt="" class="sc-pReKu eehIqb">
+                        <path class="crown"
+                            d="M39.4,10.7c0.2,0,0.3,0,0.4-0.1L45,28h0c0.6,1.9,3.4,3.4,6.8,3.4c3.4,0,6.2-1.5,6.8-3.4h0l5.1-17.4  c0.1,0,0.3,0,0.4,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.7,0.4,1.3,1,1.6l-5.9,12.7l1-17.1  c0,0,0,0,0,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.8,0.6,1.5,1.3,1.7l-3.9,16.7L52,4.3  c0.9-0.1,1.5-0.9,1.5-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.9,0.7,1.7,1.5,1.8l-1.9,18.4L45.7,6C46.5,5.8,47,5.1,47,4.3  c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8c0,0,0,0,0,0l1,17.1l-5.9-12.7c0.6-0.3,1-0.9,1-1.6  c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8C37.6,9.9,38.4,10.7,39.4,10.7z M51.8,26.5c3.1,0,5.6,0.8,5.6,1.8c0,1-2.5,1.8-5.6,1.8  c-3.1,0-5.6-0.8-5.6-1.8C46.1,27.3,48.7,26.5,51.8,26.5z"
+                            fill="rgb(139, 105, 31)">
+                        </path>
+                        <path
+                            d="M31.9,38.7c-5.2,0-9.3,4.2-9.3,9.2c0,5,4.2,9.2,9.3,9.2c5.2,0,9.3-4.2,9.3-9.2C41.2,42.9,37.1,38.7,31.9,38.7z   M35.8,53.2c-0.3,0.4-0.7,0.8-1.1,1.1c-0.7,0.5-1.5,0.9-2.3,0.9c-0.2,0-0.3,0-0.5,0c-0.2,0-0.3,0-0.5,0c-0.8,0-1.6-0.4-2.3-0.9  c-0.4-0.3-0.8-0.7-1.1-1.1c-1-1.3-1.6-3.2-1.6-5.3c0-2,0.5-3.7,1.4-5.1c0.5-0.9,1.2-1.6,2.2-2c0,0,0,0,0,0c0,0,0.1,0,0.1-0.1  c0.1-0.1,0.2-0.1,0.4-0.1c0.4-0.1,0.9-0.2,1.3-0.2c0.5,0,0.9,0.1,1.3,0.2c0.1,0,0.3,0.1,0.4,0.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0  c0.9,0.4,1.7,1.1,2.2,2c0.9,1.3,1.4,3.1,1.4,5.1C37.4,50,36.8,51.9,35.8,53.2z"
+                            fill="white">
+                        </path>
+                        <path
+                            d="M59.7,49.8h-1.3v2.6c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4h-1.5V40.6h2.5v-1.3h-2.5l0,0h-0.3h-6.2v1.3h2.5  v14.6h-2.5v1.3h14.9h1.1h0.1h0.1v0h0v-4.2h0V49.8z"
+                            fill="white">
+                        </path>
+                        <path
+                            d="M79.5,39.4L79.5,39.4h-0.1h-4H62.5v1.3h2.5v14.6h-2.5v1.3v0h12.9h2.9h1.1h0.1h0h0.1v-4.2v-1.9h-1.3v2l0,0  c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4.6v0H69h-0.1v-7V48h1.3c0,0,0,0,0,0H71l0,0c1.2,0,2.1,1,2.1,2.1c0,0,0,0,0,0h0v0.7l0,0v0.3  h1.2V51V48v0v-1.1v0V44v-0.1h-1.2v0.8h0c0,0,0,0,0,0c0,1.2-0.9,2-2.1,2l0,0h-0.8h-0.8h-0.5v-6.2H69h3.7c0,0,0,0,0.1,0h2.6  c1.6,0,2.8,1.3,2.9,2.8l0,0v1.8h1.3v-1.7L79.5,39.4L79.5,39.4L79.5,39.4z"
+                            fill="white">
+                        </path>
+                        <path
+                            d="M101.8,55.3c-1.2,0-1.5-0.4-2.5-1.5l-5.7-7.1l3.8-4.5v0c1-1.2,1.3-1.6,2.6-1.6h0.8h0.2v-1.3h-0.2H97h-0.2h-2.7  H94v1.3h0.2h1.4v0c0,0,0,0,0,0c0.3,0,0.6,0.3,0.6,0.6c0,0.1,0,0.2-0.1,0.3l-3.3,4L90,42.3l-0.5-0.7c-0.1-0.1-0.1-0.2-0.1-0.4  c0-0.3,0.3-0.6,0.6-0.6h1.5v-1.3h-2.7h-3.9h-2.1v1.3h0.4c1.1,0.1,1.4,0.4,2.3,1.4l5,6.3L86,53.7v0c-1,1.2-1.3,1.6-2.6,1.6h-0.8h-0.3  v1.3h0.3h4.3h0.3h2.3h0.3v-1.3h-0.3h-1.6v0c0,0,0,0,0,0c-0.3,0-0.6-0.3-0.6-0.6c0-0.1,0.1-0.3,0.1-0.4l4-4.8l3.3,4.2l0.5,0.6  c0.1,0.1,0.1,0.2,0.1,0.4c0,0.3-0.3,0.6-0.6,0.6c0,0,0,0,0,0l0,0h-1.6v1.3h0v0h9.3v-1.3L101.8,55.3L101.8,55.3z"
+                            fill="white">
+                        </path>
+                        <path
+                            d="M19.6,55.2l-1.1-3.3c-0.5-1.5-0.9-2.1-1.7-2.9c-0.5-0.5-1.3-0.7-1.9-0.9c2.1-0.3,3.7-2.2,3.7-4.4  c0-2.4-2-4.4-4.4-4.4c0,0-0.1,0-0.1,0v0H7.4h-4H1v1.3h2.4v14.6H0.9v1.3h6.4l0,0h2.5v-1.3H7.4v-7h1.9c0.1,0,0.1,0,0.2,0h0.4  c0.6,0,1.1,0.1,1.6,0.2c0.4,0.1,0.9,0.3,1.2,0.5c0.4,0.3,0.9,0.7,1.3,1.3c0.1,0.2,0.2,0.4,0.3,0.5c0.7,1.4,1.2,3.3,1.7,5.7h3v0h2.7  v-1.3L19.6,55.2L19.6,55.2z M11.6,46.9H7.4v-6.3h4.2c1.8,0.1,3.2,1.3,3.2,3.1S13.4,46.8,11.6,46.9z"
+                            fill="white">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <!-- listsection1 -->
+            <section>
+                <div class="rwd-banner">
+                    <ul class="owl-carousel">
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=550"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Lady-Datejust</span>
+                                <p>優雅典範</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Explorer</span>
+                                <p>來自高峰的呼喚</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Datejust</span>
+                                <p>經典腕錶的典範</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Oyster Perpetual</span>
+                                <p>蠔式精髓</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Sky-Dweller</span>
+                                <p>掌握世界各地的時間</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>GMT-Master II</span>
+                                <p>都市必備腕錶</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Day-Date</span>
+                                <p>尊貴腕錶的典範</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Cosmograph Daytona</span>
+                                <p>註定與速度比拼</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Yacht-Master</span>
+                                <p>揚帆遠航的腕錶</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Submariner</span>
+                                <p>潛水腕錶的典範</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Sea-Dweller</span>
+                                <p>征服深海的腕錶</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Milgauss</span>
+                                <p>向科學致敬</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Cellini</span>
+                                <p>經典腕錶</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Pearlmaster</span>
+                                <p>蠔式系列的璀璨明珠</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=400"
+                                alt="">
+                            <div class="li-tittle">
+                                <span>Air-King</span>
+                                <p>向航空致敬</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- listsection2 -->
+            <section>
+                <div class="listsec2">
+                    <div class="lists2ul1">
+                        <ul>
+                            <li>勞力士腕錶</li>
+                            <li>2021新款腕錶</li>
+                            <li>設置您的腕錶</li>
+                            <li>尋找腕錶</li>
+                            <li>歷史與製錶公藝</li>
+                        </ul>
+                    </div>
+                    <div class="lists2ul2">
+                        <ul>
+                            <li>勞力士世界</li>
+                        </ul>
+                    </div>
+                    <div class="lists2ul3">
+                        <ul>
+                            <li>選購勞力士腕錶</li>
+                            <li>尋找零售商</li>
+                            <li>腕錶保養及檢修</li>
+                        </ul>
+                    </div>
+                    <div class="lists2ul4">
+                        <ul>
+                            <li>關於Rolex.org</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- pc header -->
+    <header class="pcheader">
+        <div class="headerleft">
+            <button class="pcheaderlbtn">
+                <div class="sc-ul"></div>
+                <span id="headerls">選單</span>
+            </button>
+            <div class="pcheaderla">
+                <a href="" class="l3">腕錶</a>
+                <a href="" class="l3">勞力士世界</a>
+                <a href="" class="l3">零售商地址</a>
+            </div>
+        </div>
+        <div class="pcheaderm">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 59" aria-hidden="true" alt="" height="50px">
+                    <path id="l1"
+                        d="M39.4,10.7c0.2,0,0.3,0,0.4-0.1L45,28h0c0.6,1.9,3.4,3.4,6.8,3.4c3.4,0,6.2-1.5,6.8-3.4h0l5.1-17.4c0.1,0,0.3,0,0.4,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.7,0.4,1.3,1,1.6l-5.9,12.7l1-17.1c0,0,0,0,0,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.8,0.6,1.5,1.3,1.7l-3.9,16.7L52,4.3c0.9-0.1,1.5-0.9,1.5-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.9,0.7,1.7,1.5,1.8l-1.9,18.4L45.7,6C46.5,5.8,47,5.1,47,4.3c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8c0,0,0,0,0,0l1,17.1l-5.9-12.7c0.6-0.3,1-0.9,1-1.6c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8C37.6,9.9,38.4,10.7,39.4,10.7z M51.8,26.5c3.1,0,5.6,0.8,5.6,1.8c0,1-2.5,1.8-5.6,1.8c-3.1,0-5.6-0.8-5.6-1.8C46.1,27.3,48.7,26.5,51.8,26.5z"
+                        fill="rgba(255, 255, 255, 1)"></path>
+                    <g fill="rgba(255, 255, 255, 1)" id="l2">
+                        <path
+                            d="M19.6,55.2l-1.1-3.3c-0.5-1.5-0.9-2.1-1.7-2.9c-0.5-0.5-1.3-0.7-1.9-0.9c2.1-0.3,3.7-2.2,3.7-4.4c0-2.4-2-4.4-4.4-4.4c0,0-0.1,0-0.1,0v0H7.4h-4H1v1.3h2.4v14.6H0.9v1.3h6.4l0,0h2.5v-1.3H7.4v-7h1.9c0.1,0,0.1,0,0.2,0h0.4c0.6,0,1.1,0.1,1.6,0.2c0.4,0.1,0.9,0.3,1.2,0.5c0.4,0.3,0.9,0.7,1.3,1.3c0.1,0.2,0.2,0.4,0.3,0.5c0.7,1.4,1.2,3.3,1.7,5.7h3v0h2.7v-1.3L19.6,55.2L19.6,55.2z M11.6,46.9H7.4v-6.3h4.2c1.8,0.1,3.2,1.3,3.2,3.1S13.4,46.8,11.6,46.9z">
+                        </path>
+                        <path
+                            d="M31.9,38.7c-5.2,0-9.3,4.2-9.3,9.2c0,5,4.2,9.2,9.3,9.2c5.2,0,9.3-4.2,9.3-9.2C41.2,42.9,37.1,38.7,31.9,38.7zM35.8,53.2c-0.3,0.4-0.7,0.8-1.1,1.1c-0.7,0.5-1.5,0.9-2.3,0.9c-0.2,0-0.3,0-0.5,0c-0.2,0-0.3,0-0.5,0c-0.8,0-1.6-0.4-2.3-0.9c-0.4-0.3-0.8-0.7-1.1-1.1c-1-1.3-1.6-3.2-1.6-5.3c0-2,0.5-3.7,1.4-5.1c0.5-0.9,1.2-1.6,2.2-2c0,0,0,0,0,0c0,0,0.1,0,0.1-0.1c0.1-0.1,0.2-0.1,0.4-0.1c0.4-0.1,0.9-0.2,1.3-0.2c0.5,0,0.9,0.1,1.3,0.2c0.1,0,0.3,0.1,0.4,0.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0.9,0.4,1.7,1.1,2.2,2c0.9,1.3,1.4,3.1,1.4,5.1C37.4,50,36.8,51.9,35.8,53.2z">
+                        </path>
+                        <path
+                            d="M59.7,49.8h-1.3v2.6c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4h-1.5V40.6h2.5v-1.3h-2.5l0,0h-0.3h-6.2v1.3h2.5v14.6h-2.5v1.3h14.9h1.1h0.1h0.1v0h0v-4.2h0V49.8z">
+                        </path>
+                        <path
+                            d="M79.5,39.4L79.5,39.4h-0.1h-4H62.5v1.3h2.5v14.6h-2.5v1.3v0h12.9h2.9h1.1h0.1h0h0.1v-4.2v-1.9h-1.3v2l0,0c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4.6v0H69h-0.1v-7V48h1.3c0,0,0,0,0,0H71l0,0c1.2,0,2.1,1,2.1,2.1c0,0,0,0,0,0h0v0.7l0,0v0.3h1.2V51V48v0v-1.1v0V44v-0.1h-1.2v0.8h0c0,0,0,0,0,0c0,1.2-0.9,2-2.1,2l0,0h-0.8h-0.8h-0.5v-6.2H69h3.7c0,0,0,0,0.1,0h2.6c1.6,0,2.8,1.3,2.9,2.8l0,0v1.8h1.3v-1.7L79.5,39.4L79.5,39.4L79.5,39.4z">
+                        </path>
+                        <path
+                            d="M101.8,55.3c-1.2,0-1.5-0.4-2.5-1.5l-5.7-7.1l3.8-4.5v0c1-1.2,1.3-1.6,2.6-1.6h0.8h0.2v-1.3h-0.2H97h-0.2h-2.7H94v1.3h0.2h1.4v0c0,0,0,0,0,0c0.3,0,0.6,0.3,0.6,0.6c0,0.1,0,0.2-0.1,0.3l-3.3,4L90,42.3l-0.5-0.7c-0.1-0.1-0.1-0.2-0.1-0.4c0-0.3,0.3-0.6,0.6-0.6h1.5v-1.3h-2.7h-3.9h-2.1v1.3h0.4c1.1,0.1,1.4,0.4,2.3,1.4l5,6.3L86,53.7v0c-1,1.2-1.3,1.6-2.6,1.6h-0.8h-0.3v1.3h0.3h4.3h0.3h2.3h0.3v-1.3h-0.3h-1.6v0c0,0,0,0,0,0c-0.3,0-0.6-0.3-0.6-0.6c0-0.1,0.1-0.3,0.1-0.4l4-4.8l3.3,4.2l0.5,0.6c0.1,0.1,0.1,0.2,0.1,0.4c0,0.3-0.3,0.6-0.6,0.6c0,0,0,0,0,0l0,0h-1.6v1.3h0v0h9.3v-1.3L101.8,55.3L101.8,55.3z">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="pcheaderright">
+            <div class="pcsearch">
+                <button class="pcheaderrbtn1">
+                    <svg aria-labelledby="search-picto" height="15" width="15" viewBox="0 0 15 15"
+                        xmlns="http://www.w3.org/2000/svg" role="img" class="sc-fzoPby cSPfCG icon" name="search"
+                        aria-hidden="true" alt="">
+                        <path
+                            d="m15 13.6-4.1-4.1c.7-1 1.1-2.2 1.1-3.5 0-3.3-2.7-6-6-6s-6 2.7-6 6 2.7 6 6 6c1.3 0 2.5-.4 3.5-1.1l4.1 4.1zm-9-3.6c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
+                            id="search" fill="#fff"></path>
+                    </svg>
+                    <span id="headrs1">搜尋</span>
+                </button>
+            </div>
+            <div class="pclikelist">
+                <button class="pcheaderrbtn2">
+                    <svg aria-labelledby="wishlist-picto" height="15" width="15" viewBox="0 0 15 15"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""
+                        class="sc-fzoPby cSPfCG">
+                        <title id="wishlist-picto">您的腕錶清單</title>
+                        <path id="wishlist"
+                            d="m13.62 2.05c-.9-1.01-2.18-1.59-3.5-1.59-1.09 0-1.96.32-2.62.75-.66-.43-1.53-.75-2.62-.75-1.31 0-2.6.58-3.52 1.59-.99 1.08-1.47 2.54-1.34 4 .24 2.6 2.79 5.67 6.66 8l.81.49.81-.49c3.87-2.33 6.42-5.39 6.66-8 .14-1.46-.35-2.92-1.34-4zm-.69 3.99c-.17 1.88-2.31 4.36-5.44 6.25-3.12-1.88-5.27-4.36-5.44-6.25-.18-1.89 1.26-3.57 3.02-3.57s2.43 1.28 2.43 1.28.64-1.28 2.41-1.28 3.2 1.68 3.02 3.57z"
+                            fill="white">
+                        </path>
+                    </svg>
+                    <span id="headrs2">您的腕錶清單</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- rwd header -->
+    <header class="rwdheader">
+        <div class="rwdheaderl">
+            <button class="pcheaderlbtn">
+                <div class="sc-ul"></div>
+            </button>
+        </div>
+        <div class="rwdheaderm">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 59" aria-hidden="true" alt="" height="40px">
+                    <path
+                        d="M39.4,10.7c0.2,0,0.3,0,0.4-0.1L45,28h0c0.6,1.9,3.4,3.4,6.8,3.4c3.4,0,6.2-1.5,6.8-3.4h0l5.1-17.4c0.1,0,0.3,0,0.4,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.7,0.4,1.3,1,1.6l-5.9,12.7l1-17.1c0,0,0,0,0,0c1,0,1.8-0.8,1.8-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.8,0.6,1.5,1.3,1.7l-3.9,16.7L52,4.3c0.9-0.1,1.5-0.9,1.5-1.8c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,0.9,0.7,1.7,1.5,1.8l-1.9,18.4L45.7,6C46.5,5.8,47,5.1,47,4.3c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8c0,1,0.8,1.8,1.8,1.8c0,0,0,0,0,0l1,17.1l-5.9-12.7c0.6-0.3,1-0.9,1-1.6c0-1-0.8-1.8-1.8-1.8c-1,0-1.8,0.8-1.8,1.8C37.6,9.9,38.4,10.7,39.4,10.7z M51.8,26.5c3.1,0,5.6,0.8,5.6,1.8c0,1-2.5,1.8-5.6,1.8c-3.1,0-5.6-0.8-5.6-1.8C46.1,27.3,48.7,26.5,51.8,26.5z"
+                        fill="rgba(255, 255, 255, 1)"></path>
+                    <g fill="rgba(255, 255, 255, 1)">
+                        <path
+                            d="M19.6,55.2l-1.1-3.3c-0.5-1.5-0.9-2.1-1.7-2.9c-0.5-0.5-1.3-0.7-1.9-0.9c2.1-0.3,3.7-2.2,3.7-4.4c0-2.4-2-4.4-4.4-4.4c0,0-0.1,0-0.1,0v0H7.4h-4H1v1.3h2.4v14.6H0.9v1.3h6.4l0,0h2.5v-1.3H7.4v-7h1.9c0.1,0,0.1,0,0.2,0h0.4c0.6,0,1.1,0.1,1.6,0.2c0.4,0.1,0.9,0.3,1.2,0.5c0.4,0.3,0.9,0.7,1.3,1.3c0.1,0.2,0.2,0.4,0.3,0.5c0.7,1.4,1.2,3.3,1.7,5.7h3v0h2.7v-1.3L19.6,55.2L19.6,55.2z M11.6,46.9H7.4v-6.3h4.2c1.8,0.1,3.2,1.3,3.2,3.1S13.4,46.8,11.6,46.9z">
+                        </path>
+                        <path
+                            d="M31.9,38.7c-5.2,0-9.3,4.2-9.3,9.2c0,5,4.2,9.2,9.3,9.2c5.2,0,9.3-4.2,9.3-9.2C41.2,42.9,37.1,38.7,31.9,38.7zM35.8,53.2c-0.3,0.4-0.7,0.8-1.1,1.1c-0.7,0.5-1.5,0.9-2.3,0.9c-0.2,0-0.3,0-0.5,0c-0.2,0-0.3,0-0.5,0c-0.8,0-1.6-0.4-2.3-0.9c-0.4-0.3-0.8-0.7-1.1-1.1c-1-1.3-1.6-3.2-1.6-5.3c0-2,0.5-3.7,1.4-5.1c0.5-0.9,1.2-1.6,2.2-2c0,0,0,0,0,0c0,0,0.1,0,0.1-0.1c0.1-0.1,0.2-0.1,0.4-0.1c0.4-0.1,0.9-0.2,1.3-0.2c0.5,0,0.9,0.1,1.3,0.2c0.1,0,0.3,0.1,0.4,0.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0.9,0.4,1.7,1.1,2.2,2c0.9,1.3,1.4,3.1,1.4,5.1C37.4,50,36.8,51.9,35.8,53.2z">
+                        </path>
+                        <path
+                            d="M59.7,49.8h-1.3v2.6c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4h-1.5V40.6h2.5v-1.3h-2.5l0,0h-0.3h-6.2v1.3h2.5v14.6h-2.5v1.3h14.9h1.1h0.1h0.1v0h0v-4.2h0V49.8z">
+                        </path>
+                        <path
+                            d="M79.5,39.4L79.5,39.4h-0.1h-4H62.5v1.3h2.5v14.6h-2.5v1.3v0h12.9h2.9h1.1h0.1h0h0.1v-4.2v-1.9h-1.3v2l0,0c0,1.6-1.3,2.8-2.9,2.8c0,0,0,0,0,0v0h-4.6v0H69h-0.1v-7V48h1.3c0,0,0,0,0,0H71l0,0c1.2,0,2.1,1,2.1,2.1c0,0,0,0,0,0h0v0.7l0,0v0.3h1.2V51V48v0v-1.1v0V44v-0.1h-1.2v0.8h0c0,0,0,0,0,0c0,1.2-0.9,2-2.1,2l0,0h-0.8h-0.8h-0.5v-6.2H69h3.7c0,0,0,0,0.1,0h2.6c1.6,0,2.8,1.3,2.9,2.8l0,0v1.8h1.3v-1.7L79.5,39.4L79.5,39.4L79.5,39.4z">
+                        </path>
+                        <path
+                            d="M101.8,55.3c-1.2,0-1.5-0.4-2.5-1.5l-5.7-7.1l3.8-4.5v0c1-1.2,1.3-1.6,2.6-1.6h0.8h0.2v-1.3h-0.2H97h-0.2h-2.7H94v1.3h0.2h1.4v0c0,0,0,0,0,0c0.3,0,0.6,0.3,0.6,0.6c0,0.1,0,0.2-0.1,0.3l-3.3,4L90,42.3l-0.5-0.7c-0.1-0.1-0.1-0.2-0.1-0.4c0-0.3,0.3-0.6,0.6-0.6h1.5v-1.3h-2.7h-3.9h-2.1v1.3h0.4c1.1,0.1,1.4,0.4,2.3,1.4l5,6.3L86,53.7v0c-1,1.2-1.3,1.6-2.6,1.6h-0.8h-0.3v1.3h0.3h4.3h0.3h2.3h0.3v-1.3h-0.3h-1.6v0c0,0,0,0,0,0c-0.3,0-0.6-0.3-0.6-0.6c0-0.1,0.1-0.3,0.1-0.4l4-4.8l3.3,4.2l0.5,0.6c0.1,0.1,0.1,0.2,0.1,0.4c0,0.3-0.3,0.6-0.6,0.6c0,0,0,0,0,0l0,0h-1.6v1.3h0v0h9.3v-1.3L101.8,55.3L101.8,55.3z">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+
+        <div class="rwdheaderr">
+            <button class="rwdsearch">
+                <svg aria-labelledby="search-picto" height="15" width="15" viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg" role="img" class="sc-fzoPby cSPfCG icon" name="search"
+                    aria-hidden="true" alt="">
+                    <title id="search-picto">搜尋</title>
+                    <path
+                        d="m15 13.6-4.1-4.1c.7-1 1.1-2.2 1.1-3.5 0-3.3-2.7-6-6-6s-6 2.7-6 6 2.7 6 6 6c1.3 0 2.5-.4 3.5-1.1l4.1 4.1zm-9-3.6c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
+                        id="search" fill="white"></path>
+                </svg>
+            </button>
+            <button class="rwdlikelist">
+                <svg aria-labelledby="wishlist-picto" height="15" width="15" viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="" class="sc-fzoPby cSPfCG">
+                    <title id="wishlist-picto">您的腕錶清單</title>
+                    <path
+                        d="m13.62 2.05c-.9-1.01-2.18-1.59-3.5-1.59-1.09 0-1.96.32-2.62.75-.66-.43-1.53-.75-2.62-.75-1.31 0-2.6.58-3.52 1.59-.99 1.08-1.47 2.54-1.34 4 .24 2.6 2.79 5.67 6.66 8l.81.49.81-.49c3.87-2.33 6.42-5.39 6.66-8 .14-1.46-.35-2.92-1.34-4zm-.69 3.99c-.17 1.88-2.31 4.36-5.44 6.25-3.12-1.88-5.27-4.36-5.44-6.25-.18-1.89 1.26-3.57 3.02-3.57s2.43 1.28 2.43 1.28.64-1.28 2.41-1.28 3.2 1.68 3.02 3.57z"
+                        fill="white">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- header ul list -->
+    <div class="rwdlist">
+        <div class="rwdlisttop">
+            <div class="rwdlistsvg">
+                <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="hsl(0,0%,0%)"
+                    role="img" aria-hidden="true" alt="">
+                    <path
+                        d="m8.9 7.5 6.1 6.1-1.4 1.4-6.1-6.1-6.1 6.1-1.4-1.4 6.1-6.1-6.1-6.1 1.4-1.4 6.1 6.1 6.1-6.1 1.4 1.4z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- section -->
+    <section>
+        <div class="section1">
+            <img src="https://content.rolex.com/dam/homepage/hss/watches/classic-watches/lady-datejust/audacity-of-excellence/homepage-lady-datejust-inspiring-women-cover-autoplay-fallback.jpg?imwidth=1350, https://content.rolex.com/dam/homepage/hss/watches/classic-watches/lady-datejust/audacity-of-excellence/homepage-lady-datejust-inspiring-women-cover-autoplay-fallback.jpg?imwidth=1668 2x"
+                alt="">
+            <div class="pcs1h1">
+                <h1>無限追求卓越</h1>
+                <p>LADY-DATEJUST</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- section2 -->
+    <section>
+        <div class="section2">
+            <div class="s2cont">
+                <p class="p1">勞力士腕錶製作一絲不苟。</p>
+                <p class="p2">探索尊貴非凡且精準可靠的勞力士腕錶。勞力士提供一系列蠔式及Cellini腕錶，迎合不同風格。探索款式眾多的勞力士腕錶，尋找結合非凡設計風格及實用功能的<br>時計。</p>
+                <div class="s2a">
+                    <a href="#" class="a1">
+                        尋找腕錶
+                    </a>
+                    <a href="#" class="a2">
+                        設置您的腕錶
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section3 -->
+    <section>
+        <div class="section3">
+            <div class="s3a">
+                <p>勞力士腕錶</p>
+                <span>
+                    <svg height="11" width="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-hidden="true" alt="">
+                        <path d="m0 6.5v-1h11v1z"></path>
+                    </svg>
+                </span>
+                <a href="">瀏覽全部</a>
+            </div>
+            <div class="banner">
+                <ul class="owl-carousel">
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0001_m279138rbr-0015-lady-datejust-28.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Lady-Datejust</span>
+                            <p>優雅典範</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0004_m124273-0001-explorer.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Explorer</span>
+                            <p>來自高峰的呼喚</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0003_m126200-0020-datejust.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Datejust</span>
+                            <p>經典腕錶的典範</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0007_m124300-0001-perpetual-41.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Oyster Perpetual</span>
+                            <p>蠔式精髓</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0000_m326238-0009-sky-dweller.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Sky-Dweller</span>
+                            <p>掌握世界各地的時間</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0004_m126711chnr-0002-gmt-master-ii.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>GMT-Master II</span>
+                            <p>都市必備腕錶</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0002_m228239-0033-day-date-40.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Day-Date</span>
+                            <p>尊貴腕錶的典範</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2021/homepage/roller/all-watches/watches_0012_m116519ln-0038-cosmograph-daytona.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Cosmograph Daytona</span>
+                            <p>註定與速度比拼</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0010_m116681-0002-yacht-master-ii.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Yacht-Master</span>
+                            <p>揚帆遠航的腕錶</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0008_m124060-0001-submariner.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Submariner</span>
+                            <p>潛水腕錶的典範</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0005_m126603-0001-sea-dweller.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Sea-Dweller</span>
+                            <p>征服深海的腕錶</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0012_m116400gv-0002-milgauss.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Milgauss</span>
+                            <p>向科學致敬</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0014_m50535-0002-cellini-moonphase.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Cellini</span>
+                            <p>經典腕錶</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0013_m86409rbr-0001-pearlmaster-39.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Pearlmaster</span>
+                            <p>蠔式系列的璀璨明珠</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://content.rolex.com/dam/new-watches-2020/homepage/roller/all-watches/watches_0009_m116900-0001-air-king.jpg?imwidth=400"
+                            alt="">
+                        <div class="li-tittle">
+                            <span>Air-King</span>
+                            <p>向航空致敬</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- section4 -->
+    <section>
+        <div class="section4">
+            <img src="https://content.rolex.com/dam/homepage/video-banner/watches/lady-datejust/homepage-lady-datejust-video-banner-posterframe.jpg?imwidth=1350, https://content.rolex.com/dam/homepage/video-banner/watches/lady-datejust/homepage-lady-datejust-video-banner-posterframe.jpg?imwidth=1668 2x"
+                alt="">
+            <div class="s4cont">
+                <p>勞力士腕錶</p>
+                <h1>LADY-DATEJUST<br>優雅風範</h1>
+                <a href="">探索更多</a>
+            </div>
+        </div>
+    </section>
+    <!-- section5 -->
+    <section>
+        <div class="section5">
+            <div class="container">
+                <div class="s5cont">
+                    <p>探索勞力士</p>
+                    <div class="row">
+                        <div class="card1 col-lg-12 col-12">
+                            <img src="https://content.rolex.com/dam/homepage/grid/rolex-org/rae/women-changing-the-world/homepage-women-changing-the-world_camp_rae19camp_19fg_023.jpg?imwidth=1350, https://content.rolex.com/dam/homepage/grid/rolex-org/rae/women-changing-the-world/homepage-women-changing-the-world_camp_rae19camp_19fg_023.jpg?imwidth=1920 2x"
+                                alt="" id="img1">
+                            <h6>改變世界的女性</h6>
+                            <p>Rolex.org</p>
+                            <div class="card1hid">
+                                <p>於Rolex.org探索更多</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card2 col-lg-6 col-6">
+                            <img src="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-magic-of-gemstones/homepage-watchmaking-the-magic-of-gemstones-square_elmt_1705dh_028.jpg?imwidth=450, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/the-magic-of-gemstones/homepage-watchmaking-the-magic-of-gemstones-square_elmt_1705dh_028.jpg?imwidth=720 2x"
+                                alt="" id="img2">
+                            <h6>寶石魔法</h6>
+                            <p>寶石學與寶石鑲嵌</p>
+                            <div class="card2hid">
+                                <p>探索更多</p>
+                            </div>
+                        </div>
+                        <div class="card3 col-lg-6 col-6">
+                            <img src="https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/dials/homepage-watchmaking-dials.jpg?imwidth=450, https://content.rolex.com/dam/homepage/grid/history-and-watchmaking/watchmaking/dials/homepage-watchmaking-dials.jpg?imwidth=720 2x"
+                                alt="" id="img3">
+                            <h6>錶面</h6>
+                            <p>腕錶的不同面貌</p>
+                            <div class="card3hid">
+                                <p>探索更多</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section6 -->
+    <section>
+        <div class="section6">
+            <div class="s6cont">
+                <p>分享此頁面</p>
+                <div class="s6svg">
+                    <button>
+                        <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path
+                                d="m15 2.85c-.55.24-1.14.41-1.77.49.64-.38 1.12-.98 1.35-1.7-.6.35-1.25.61-1.96.75-.56-.6-1.36-.97-2.24-.97-1.7 0-3.08 1.38-3.08 3.08 0 .24.03.48.08.7-2.55-.14-4.82-1.37-6.34-3.23-.26.45-.41.98-.41 1.55 0 1.07.54 2.01 1.37 2.56-.51-.02-.98-.16-1.4-.39v.04c0 1.49 1.06 2.74 2.47 3.02-.26.07-.53.1-.81.1-.2 0-.39-.02-.58-.05.39 1.22 1.53 2.11 2.87 2.14-1.05.82-2.38 1.31-3.82 1.31-.25 0-.49-.01-.73-.04 1.36.87 2.98 1.38 4.72 1.38 5.66 0 8.75-4.69 8.75-8.75l-.01-.4c.61-.43 1.13-.97 1.54-1.59zm0 0">
+                            </path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path
+                                d="m11.5 0v2.25h-2.93c-.31 0-.57.32-.57.63v1.62h3.25l-.61 2.25h-2.64v8.25h-2.25v-8.25h-2.25v-2.25h2.25v-1.75c0-1.59 1.17-2.75 2.75-2.75z">
+                            </path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path
+                                d="m13.5 5.34c0 3.18-2.04 5.75-4.87 5.75-.95 0-1.85-.49-2.15-1.06 0 0-.47 1.76-.59 2.2-.19.71-.65 1.57-1.02 2.18-.03.05-.06.11-.1.16-.02.03-.04.05-.05.08-.12.15-.25.29-.39.35 0 0-.16-.13-.25-.58 0-.03-.02-.07-.02-.1-.01-.09-.02-.19-.03-.3 0 0 0 0 0-.01-.06-.7-.08-1.58.07-2.24.17-.72 1.1-4.59 1.1-4.59s-.27-.56-.27-1.38c0-1.29.76-2.24 1.7-2.24.8 0 1.19.59 1.19 1.3 0 .79-.51 1.98-.78 3.08-.22.92.47 1.67 1.39 1.67 1.67 0 2.95-1.73 2.95-4.23 0-2.21-1.62-3.76-3.92-3.76-2.67 0-4.24 1.97-4.24 4.01 0 .79.31 1.65.7 2.11.07.09.08.17.06.26-.07.29-.23.92-.26 1.05-.04.17-.13.2-.31.12-1.18-.54-1.91-2.22-1.91-3.58 0-2.91 2.15-5.59 6.21-5.59 3.26 0 5.79 2.28 5.79 5.34z">
+                            </path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path
+                                d="m15 8.91v5.74h-3.1v-5.36c0-1.34-.47-2.26-1.6-2.26-.86 0-1.39.62-1.62 1.22-.07.21-.11.51-.11.81v5.59h-3.1s.04-9.05 0-10h3.1v1.41c0 .01.01.01 0 .01v-.01c.48-.68 1.17-1.66 2.83-1.66 2.05 0 3.6 1.43 3.6 4.51zm-13.32-8.55c-1.02 0-1.68.72-1.68 1.66 0 .93.64 1.67 1.64 1.67h.02c1.03 0 1.68-.74 1.68-1.67-.03-.94-.65-1.66-1.66-1.66zm-1.44 14.28h2.86v-10h-2.86z">
+                            </path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg height="11" width="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path d="m0 1.1h11l-5.5 4.2zm5.5 6.2-5.5-4.2v6.7h11v-6.7z"></path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" fill="green"
+                            role="img" aria-hidden="true" alt="">
+                            <path
+                                d="m4 7.5c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm3.5-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm5.5 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pc footer -->
+    <footer class="pcfoot">
+        <div class="pcfooter">
+            <div class="pcfootl">
+                <div class="pcfootl1">
+                    <p>勞力士腕錶</p>
+                    <ul>
+                        <li>勞力士腕錶</li>
+                        <li>2021新款腕錶</li>
+                        <li>設置您的腕錶</li>
+                        <li>尋找腕錶</li>
+                        <li>男裝腕錶</li>
+                        <li>女裝腕錶</li>
+                        <li>歷史與製錶工藝</li>
+                        <li>一枚勞力士,一個故事</li>
+                    </ul>
+                </div>
+                <div class="pcfootl2">
+                    <p>勞力士世界</p>
+                    <li>運動,藝術及探險</li>
+                </div>
+                <div class="pcfootl3">
+                    <p>服務</p>
+                    <ul>
+                        <li>選購勞力士腕錶</li>
+                        <li>尋找零售商</li>
+                        <li>錶錶保養及檢修</li>
+                        <li>您的腕錶清單</li>
+                        <li>常見問題</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pcfootm">
+                <div class="pcfootm1">
+                    <p>腕錶系列</p>
+                    <ul>
+                        <li>Air-King</li>
+                        <li>Cosmograph Daytona</li>
+                        <li>DateJust</li>
+                        <li>Lady-Datejust</li>
+                        <li>Day-Date</li>
+                        <li>Exploser</li>
+                        <li>GMT-Master ll</li>
+                        <li>Milgauss</li>
+                        <li>Oyster Perpetual</li>
+                        <li>Pearlmaster</li>
+                        <li>Sea-Dweller</li>
+                        <li>Sky-Dweller</li>
+                        <li>Submariner</li>
+                        <li>Yacht-Master</li>
+                        <li>Cellini</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pcfootr">
+                <div class="pcfootr1">
+                    <p>社交媒體</p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                        <li>Pinterest</li>
+                        <li>Linkedln</li>
+                        <li>優酷</li>
+                        <li>Wechat</li>
+                        <li>微博</li>
+                    </ul>
+                </div>
+                <div class="pcfootr2">
+                    <p>法律聲明</p>
+                    <ul>
+                        <li>使用條款</li>
+                        <li>私隱聲明</li>
+                        <li>Cookies</li>
+                    </ul>
+                </div>
+                <div class="pcfootr3">
+                    <p>媒體</p>
+                    <ul>
+                        <li>桌面背景</li>
+                        <li>腕錶手冊</li>
+                        <li>用戶指南</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="pcfootb">
+            <a href="#">我們在Rolex.org的企業承諾</a>
+        </div>
+        <button id="pcfbtn">
+            <a href="#">
+                <svg height="21" width="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-hidden="true" alt="" name="search">
+                    <path d="m19.5 16.6-9-9.4-9 9.4-1.4-1.4 10.4-10.8 10.4 10.9z"></path>
+                </svg>
+            </a>
+        </button>
+    </footer>
+    <!-- rwdfooter -->
+    <footer class="rwdfoot">
+        <footer>
+            <div class="rwdfooter">
+                <div class="pcfootl">
+                    <div class="pcfootl1">
+                        <p>勞力士腕錶</p>
+                        <ul>
+                            <li>勞力士腕錶</li>
+                            <li>2021新款腕錶</li>
+                            <li>設置您的腕錶</li>
+                            <li>尋找腕錶</li>
+                            <li>男裝腕錶</li>
+                            <li>女裝腕錶</li>
+                            <li>歷史與製錶工藝</li>
+                            <li>一枚勞力士,一個故事</li>
+                        </ul>
+                    </div>
+                    <div class="pcfootl2">
+                        <p>勞力士世界</p>
+                        <li>運動,藝術及探險</li>
+                    </div>
+                    <div class="pcfootl3">
+                        <p>服務</p>
+                        <ul>
+                            <li>選購勞力士腕錶</li>
+                            <li>尋找零售商</li>
+                            <li>錶錶保養及檢修</li>
+                            <li>您的腕錶清單</li>
+                            <li>常見問題</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pcfootm">
+                    <div class="pcfootm1">
+                        <p>腕錶系列</p>
+                        <ul>
+                            <li>Air-King</li>
+                            <li>Cosmograph Daytona</li>
+                            <li>DateJust</li>
+                            <li>Lady-Datejust</li>
+                            <li>Day-Date</li>
+                            <li>Exploser</li>
+                            <li>GMT-Master ll</li>
+                            <li>Milgauss</li>
+                            <li>Oyster Perpetual</li>
+                            <li>Pearlmaster</li>
+                            <li>Sea-Dweller</li>
+                            <li>Sky-Dweller</li>
+                            <li>Submariner</li>
+                            <li>Yacht-Master</li>
+                            <li>Cellini</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pcfootr">
+                    <div class="pcfootr1">
+                        <p>社交媒體</p>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                            <li>Pinterest</li>
+                            <li>Linkedln</li>
+                            <li>優酷</li>
+                            <li>Wechat</li>
+                            <li>微博</li>
+                        </ul>
+                    </div>
+                    <div class="pcfootr2">
+                        <p>法律聲明</p>
+                        <ul>
+                            <li>使用條款</li>
+                            <li>私隱聲明</li>
+                            <li>Cookies</li>
+                        </ul>
+                    </div>
+                    <div class="pcfootr3">
+                        <p>媒體</p>
+                        <ul>
+                            <li>桌面背景</li>
+                            <li>腕錶手冊</li>
+                            <li>用戶指南</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pcfootb">
+                <a href="#">我們在Rolex.org的企業承諾</a>
+            </div>
+            <button class="rwdfbtn">
+                <svg height="21" width="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-hidden="true" alt="" name="search">
+                    <path d="m19.5 16.6-9-9.4-9 9.4-1.4-1.4 10.4-10.8 10.4 10.9z" fill="white"></path>
+                </svg>
+            </button>
+        </footer>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
+
+
+        $('.pcheader').mouseenter(function () {
+            $(this).css('background', 'white');
+            $('#l1').css({ fill: "rgb(163,126,44)" });
+            $('#l2').css({ fill: "rgb(0,96,57)" });
+            $('.l3,.pcheaderrbtn1,.pcheaderrbtn2').css('color', 'black');
+            $('.l3').css('color', 'black');
+            $('#search').css({ fill: "rgb(0,0,0)" });
+            $('#wishlist').css({ fill: "rgb(0,0,0)" });
+            $('#headrs1').css('color', "#000");
+            $('#headrs2').css('color', "#000");
+            $('#headerls').css('color', "#000");
+
+        });
+        $('.pcheader').mouseleave(function () {
+            $(this).css('background', 'none');
+            $('#l1').css({ fill: "rgba(255, 255, 255, 1)" });
+            $('#l2').css({ fill: "rgba(255, 255, 255, 1)" });
+            $('.l3').css('color', 'white');
+            $('.l3,.pcheaderrbtn1,.pcheaderrbtn2').css('color', 'white');
+            $('#search').css({ fill: "#fff" });
+            $('#wishlist').css({ fill: "#fff" });
+            $('#headrs1').css('color', "#fff");
+            $('#headrs2').css('color', "#fff");
+            $('#headerls').css('color', "#fff");
+        });
+
+        $('.l3').hover(function () {
+            $(this).css('color', 'green');
+        });
+
+        $('.card1').mouseenter(function () {
+            $('.card1hid').css('opacity', '1');
+            $('#img1').css('height', '380px');
+            $('#img1').css('transition', '0.5s');
+        });
+
+        $('.card2').mouseenter(function () {
+            $('.card2hid').css('opacity', '1');
+            $('#img2').css('height', '330px');
+            $('#img2').css('transition', '0.5s');
+        });
+
+        $('.card3').mouseenter(function () {
+            $('.card3hid').css('opacity', '1');
+            $('#img3').css('height', '330px');
+            $('#img3').css('transition', '0.5s');
+        });
+
+        $('.card1').mouseleave(function () {
+            $('.card1hid').css('opacity', '0');
+            $('#img1').css('height', '400px');
+        });
+
+        $('.card2').mouseleave(function () {
+            $('.card2hid').css('opacity', '0');
+            $('#img2').css('height', '350px');
+        });
+
+        $('.card3').mouseleave(function () {
+            $('.card3hid').css('opacity', '0');
+            $('#img3').css('height', '350px');
+        });
+
+
+
+        // $('#pcfbtn').click(function () {
+        //     $('html,body').animate({ scrollTop: 0 }, 666);
+        // });
+
+        // $('.pcheaderlbtn').click(function () {
+        //     $('.list').animate({ left: "1000px" });
+        //     $('.pcheader').css('display', "none");
+        //     $('.rwdheader').css('display', "none");
+        // });
+
+        // $('.listsvg').click(function () {
+        //     $('.list').animate({ left: "-1000px" });
+        //     // $('.pcheader').css('display', "flex");
+        //     $('.rwdheader').css('display', "flex");
+        // });
+
+        $('.pcheaderlbtn').click(function () {
+            $('.list').animate({ left: "1000px" });
+            if (window.matchMedia('(max-width: 375px)').matches) {
+                $('.pcheader').css('display', "none");
+                $('.rwdheader').css('display', "none");
+            } else {
+                $('.pcheader').css('display', "flex");
+            }
+        });
+
+        $('.pcheaderlbtn').click(function () {
+            $('.list').animate({ left: "1000px" });
+            if (window.matchMedia('(max-width: 1125px)').matches) {
+                (window.matchMedia('(max-width: 375px)').matches)
+                $('.pcheader').css('display', "none");
+                $('.rwdheader').css('display', "none");
+            } else {
+                $('.pcheader').css('display', "none");
+            }
+        });
+
+        $('.listsvg').click(function () {
+            $('.list').animate({ left: "-1000px" });
+            if (window.matchMedia('(max-width: 375px)').matches) {
+                $('.rwdheader').css('display', "flex");
+            } else {
+                $('.pcheader').css('display', "flex");
+            }
+        });
+
+        $('.listsvg').click(function () {
+            $('.list').animate({ left: "-1000px" });
+            if (window.matchMedia('(max-width: 1125px)').matches) {
+                $('.rwdheader').css('display', "flex");
+                $('.pcheader').css('display', "none");
+            } else {
+                $('.pcheader').css('display', "flex");
+            }
+        });
+
+        $('.listsvg').click(function () {
+            if ($(window).width() < 400) {
+                $('.pcheader').css('display', "none");
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
